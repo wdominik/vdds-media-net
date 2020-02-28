@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>VddsMediaNet</AssemblyName>
+    <PackageId>VddsMediaNet</PackageId>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <Authors>Dominik Wachter</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--<ProjectReference Include="../Kayleen.Common/Kayleen.Common.csproj" />-->
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ini-parser" Version="2.5.2" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+  </ItemGroup>
+</Project>
